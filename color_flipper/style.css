@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #e6e6ff;
+  overflow: hidden;
+}
+nav {
+  position: static;
+  background-color: #e6e6ff;
+  padding: 15px 0 15px 0;
+  box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: #007acc;
+}
+
+.links ul {
+  display: flex;
+}
+
+.links ul li {
+  list-style-type: none;
+  padding-left: 50px;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+main {
+  width: 900px;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content p {
+  padding: 20px 120px;
+  box-sizing: border-box;
+  background-color: black;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.content p span {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.color {
+  color: #007acc;
+  text-transform: uppercase;
+}
+
+.btn {
+  margin-top: 50px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #007acc;
+  color: #ffffff;
+  border: 1px solid #007acc;
+}
+
+.btn:hover {
+  color: black;
+  border: 1px solid black;
+}
