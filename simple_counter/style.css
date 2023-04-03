@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&family=Poppins&family=Roboto:wght@300&display=swap");
+
+:root {
+  --bg-light-blue: aliceblue;
+  --color-green: #2ed47b;
+  --color-blue: #2ddeea;
+  --color-red: #ea2d2d;
+  --color-mid-blue: #2596be;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--bg-light-blue);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 600px;
+  background-color: var(--bg-light-blue);
+  box-shadow: 5px 10px 15px 0px rgb(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.counter {
+  box-sizing: border-box;
+  padding: 80px;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: var(--color-mid-blue);
+}
+
+.number {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.button {
+  display: block;
+  margin-top: 15px;
+}
+
+.btn {
+  background-color: var(--bg-light-blue);
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 0px 5px;
+  color: var(--color-mid-blue);
+  border: 1px solid var(--color-mid-blue);
+}
+
+.increase:hover {
+  border-color: var(--color-green);
+  color: var(--color-green);
+}
+
+.reset:hover {
+  border-color: var(--color-blue);
+  color: var(--color-blue);
+}
+
+.decrease:hover {
+  border-color: var(--color-red);
+  color: var(--color-red);
+}
